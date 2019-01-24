@@ -37,8 +37,11 @@ header {
   font-weight: 300;
 }
 
+.menu {
+  text-align: center;
+}
+
 nav {
-  padding-left: 10vw;
 
 }
 
@@ -52,7 +55,7 @@ nav li {
   display: inline-block;
   font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
   margin-right: 10vmin;
-  padding-top: 10px;
+  padding-top: 1vmin;
 }
 
 nav a {
