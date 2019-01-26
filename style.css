@@ -6,7 +6,7 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (1600 - 300)));
-  
+  color: White;
 }
 
 header {
@@ -25,12 +25,17 @@ header {
   margin-top: 2vmin;
 }
 
+.banner a {
+  text-decoration: none;
+}
+
 #title {
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(10px + (26 - 10) * ((100vw - 300px) / (1600 - 300)));
   color: white;
   font-weight: 700;
   line-height: .2em;
   display: inline;
+
 }
 
 .yellow {
@@ -38,7 +43,7 @@ header {
 }
 
 #subtitle {
-  font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(7px + (20 - 7) * ((100vw - 300px) / (1600 - 300)));
   color: White;
   line-height: .2em;
   font-weight: 300;
@@ -64,7 +69,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(7px + (20 - 7) * ((100vw - 300px) / (1600 - 300)));
   margin-right: 10vmin;
 }
 
@@ -124,6 +129,7 @@ h2, h2 a {
   opacity: 0.9;
   padding: 30px 0px;
   text-align: center;
+
 }
 
 .info1 h2 {
@@ -134,4 +140,21 @@ h2, h2 a {
   width: 10vmax;
   display: inline-block;
   opacity: 0.7;
+}
+
+.info2 {
+  background: black;
+  opacity: 0.80;
+  padding: 30px 0px;
+  text-align: center;
+
+}
+
+.info2 h2 {
+  color: white;
+}
+
+.info2 img {
+  width: 10vmax;
+  display: inline-block;
 }
