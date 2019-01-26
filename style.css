@@ -50,11 +50,24 @@ header {
 }
 
 .menu {
-  text-align: center;
   position: relative;
 }
 
+#menu1 {
+  margin-right: 5vmin;
+}
+
+#menu2 {
+  margin-right: 5vmin;
+}
+
+#menu3 {
+  margin-right: 5vmin;
+}
+
 nav {
+  display: flex;
+  justify-content: center;
   background: Black;
   opacity: 0.9;
   padding-bottom: 2vmin;
@@ -71,7 +84,7 @@ nav ul {
 nav li {
   display: inline-block;
   font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (1600 - 300)));
-  margin-right: 10vmin;
+
 }
 
 nav a {
@@ -81,6 +94,10 @@ nav a {
 
 nav a:hover {
   color: Gray;
+}
+
+nav a:active {
+  color: yellow;
 }
 
 .get-started {
