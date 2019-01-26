@@ -35,7 +35,6 @@ header {
   font-weight: 700;
   line-height: .2em;
   display: inline;
-
 }
 
 .yellow {
@@ -78,13 +77,11 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-
 }
 
 nav li {
   display: inline-block;
   font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (1600 - 300)));
-
 }
 
 nav a {
@@ -145,11 +142,9 @@ h2, h2 a {
 }
 
 .info1 {
-  background: black;
-  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.9);
   padding: 30px 0px;
   text-align: center;
-
 }
 
 .info1 p {
@@ -168,22 +163,53 @@ h2, h2 a {
 }
 
 .info2 {
-  background: black;
-  opacity: 0.80;
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 30px 0px;
   text-align: center;
-
 }
 
 .info2 p {
   padding-left: 10%;
   padding-right: 10%;
 }
+
 .info2 h2 {
   color: white;
 }
 
 .info2 img {
+  width: 10vmax;
+  display: inline-block;
+}
+
+.info3 {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.info3 td {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info3 h2 {
+  color: white;
+}
+
+.info3 th {
+  color: white;
+  font-weight: 400;
+  font-size: calc(14px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.info3 td {
+  font-weight: 300;
+  text-align: center;
+  font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.info3 img {
   width: 10vmax;
   display: inline-block;
 }
