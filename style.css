@@ -54,15 +54,15 @@ header {
 }
 
 #menu1 {
-  margin-right: 5vmin;
+  margin-right: 10vmin;
 }
 
 #menu2 {
-  margin-right: 5vmin;
+  margin-right: 10vmin;
 }
 
 #menu3 {
-  margin-right: 5vmin;
+  margin-right: 10vmin;
 }
 
 nav {
@@ -139,6 +139,8 @@ h2, h2 a {
 }
 
 .get-started h2 {
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 10%;
 }
 
