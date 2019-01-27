@@ -25,10 +25,6 @@ header {
   margin-top: 2vmin;
 }
 
-.banner a {
-  text-decoration: none;
-}
-
 #title {
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: white;
@@ -37,19 +33,27 @@ header {
   display: inline;
 }
 
+#title a {
+  text-decoration: none
+}
+
 .yellow {
   color: yellow;
 }
 
 #subtitle {
   font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
-  color: White;
+  color: white;
   line-height: .2em;
   font-weight: 300;
 }
 
 .menu {
   position: relative;
+}
+
+#menu0 {
+  margin-right: 10vmin;
 }
 
 #menu1 {
@@ -93,7 +97,8 @@ nav a:hover {
   color: Gray;
 }
 
-.menu .active {
+
+nav a:active {
   color: yellow;
 }
 
