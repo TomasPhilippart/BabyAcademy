@@ -224,3 +224,33 @@ h2, h2 a {
   padding-left: 10%;
   padding-right: 10%;
 }
+
+.info4 {
+  background-color: #ffb400;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.info4 h2 {
+  color: white;
+}
+
+.info4 p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info5 {
+  background-color: #007FFF;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.info5 h2 {
+  color: white;
+}
+
+.info5 p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
