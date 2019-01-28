@@ -148,7 +148,7 @@ h2, h2 a {
 
 .info1 {
   background-color: rgba(0, 0, 0, 0.9);
-  padding: 30px 0px;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -168,7 +168,7 @@ h2, h2 a {
 
 .info2 {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 30px 0px;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -188,7 +188,7 @@ h2, h2 a {
 
 .info3 {
   background-color: rgba(0, 0, 0, 0.9);
-  padding: 30px 0px;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -220,7 +220,7 @@ h2, h2 a {
 
 .footer {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 30px 0px;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -231,7 +231,7 @@ h2, h2 a {
 
 .info4 {
   background-color: #ffb400;
-  padding: 30px 0px;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -250,7 +250,7 @@ h2, h2 a {
 
 .info5 {
   background-color: #b05cff;
-  padding: 30px 0px;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -266,7 +266,7 @@ h2, h2 a {
 
 .info6 {
   background-color: #ff6ebb;
-  padding: 30px 0px;
+  padding: 30px 0;
   text-align: center;
 }
 
