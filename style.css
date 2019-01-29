@@ -68,7 +68,7 @@ header {
   margin-right: 10vmin;
 }
 
-nav {
+.menu {
   display: flex;
   justify-content: center;
   background: Black;
@@ -77,13 +77,16 @@ nav {
   padding-top: 1vmin;
 }
 
-nav ul {
+.menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
 }
 
-nav li {
+.menu li {
   display: inline-block;
   font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (1600 - 300)));
 }
@@ -235,6 +238,13 @@ h2, h2 a {
   text-align: center;
 }
 
+.info7 .fundamentals {
+  background-color: inherit;
+}
+
+.info7 .fundamentals li {
+  list-style: none;
+}
 .info4 h2 {
   color: white;
 }
@@ -272,6 +282,8 @@ h2, h2 a {
 
 .info6 h2 {
   color: white;
+  padding-left:5%;
+  padding-right:5%;
 }
 
 .info6 p {
@@ -280,5 +292,28 @@ h2, h2 a {
 }
 
 .info6 img {
-  width: 30vmax;
+  padding-top: 5px;
+  width: 20vmax;
+}
+
+.info7 {
+  background-color: #ffb400;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.info7 .fundamentals {
+  background-color: inherit;
+}
+
+.info7 .fundamentals li {
+  list-style: none;
+}
+.info7 h2 {
+  color: white;
+}
+
+.info7 p {
+  padding-left: 10%;
+  padding-right: 10%;
 }
