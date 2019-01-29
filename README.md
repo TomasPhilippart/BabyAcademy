@@ -1,2 +1,2 @@
 # BabyAcademy
-# View Website here: https://tomasphilippart.github.io/BabyAcademy/
+# View Website here: https://tomasphilippart.github.io/babyacademy/
