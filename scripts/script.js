@@ -1,3 +1,3 @@
 function showMessage() {
-  document.getElementsById('hidden').style.display = "block";
+  document.getElementsById('hidden1').style.display = "block";
 }

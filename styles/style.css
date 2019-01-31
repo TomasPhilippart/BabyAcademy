@@ -106,7 +106,7 @@ nav a:active {
 }
 
 .get-started {
-  background: url(./images/yellow.jpg);
+  background: url(../images/yellow.jpg);
   background-size: cover;
   height: 30vmax;
   position: relative;
@@ -251,13 +251,6 @@ h2, h2 a {
   width: 30vmax;
 }
 
-.info4 .fundamentals ul {
-  list-style: none;
-}
-
-#hidden{
-  display: none;
-}
 
 .info5 {
   background-color: #b05cff;
