@@ -265,7 +265,8 @@ h2, h2 a {
 
 .info5 img {
   padding-top: 5px;
-  width: 90vmin;
+  width: 100vmin;
+  overflow: auto;
 }
 
 .info6 {
