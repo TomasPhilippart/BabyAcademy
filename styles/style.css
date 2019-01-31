@@ -11,8 +11,7 @@ body {
 
 header {
   padding-top: 10px;
-  background: Black;
-  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.9);
   padding: 10px;
 }
 
@@ -48,9 +47,6 @@ header {
   font-weight: 300;
 }
 
-.menu {
-  position: relative;
-}
 
 #menu0 {
   margin-right: 10vmin;
@@ -71,8 +67,7 @@ header {
 .menu {
   display: flex;
   justify-content: center;
-  background: Black;
-  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.9);
   padding-bottom: 2vmin;
   padding-top: 1vmin;
 }
@@ -146,6 +141,7 @@ h2, h2 a {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 10%;
+  margin-top: 0;
 }
 
 .info1 {
