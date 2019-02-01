@@ -265,8 +265,9 @@ h2, h2 a {
 
 .info5 img {
   padding-top: 5px;
-  width: 100vmin;
+  width: 30vmax;
   overflow: auto;
+  display: inline-block;
 }
 
 .info6 {
