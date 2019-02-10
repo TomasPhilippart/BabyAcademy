@@ -119,10 +119,10 @@ h2, h2 a {
 }
 
 .word_course {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.90);
   padding: 30px 0;
   text-align: center;
-  height: 90%;
+  height: 30%;
 }
 
 .word_course p {
