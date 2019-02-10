@@ -129,5 +129,5 @@ h2, h2 a {
   padding-left: 5%;
   padding-right: 5%;
   font-size: calc(50px + (300 - 50) * ((100vw - 300px) / (1600 - 300)));
-  color: red;
+  color: yellow;
 }
