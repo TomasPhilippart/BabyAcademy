@@ -118,16 +118,60 @@ h2, h2 a {
   padding-right: 10%;
 }
 
-.word_course {
-  background-color: rgba(0, 0, 0, 0.90);
+
+.info4 {
+  background-color: #ffb400;
   padding: 30px 0;
   text-align: center;
-  height: 30%;
 }
+
+
+.info4 h2 {
+  color: white;
+}
+
+.info4 p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.word_course {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 30px 0;
+  text-align: center;
+}
+
 
 .word_course p {
   padding-left: 5%;
   padding-right: 5%;
   font-size: calc(50px + (300 - 50) * ((100vw - 300px) / (1600 - 300)));
   color: yellow;
+  display: none;
+  user-select: none;
+}
+
+.button {
+  color: black;
+  font-size: 3vmin;
+  font-weight: 500;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  padding-top: 25%;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 32px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
 }

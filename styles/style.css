@@ -247,6 +247,9 @@ h2, h2 a {
   width: 30vmax;
 }
 
+#hidden {
+  display: block;
+}
 
 .info5 {
   background-color: #b05cff;
