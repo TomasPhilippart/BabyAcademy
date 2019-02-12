@@ -12,8 +12,7 @@ function getStarted() {
    document.getElementById('hidden').style.display = "none";
 }
 
-window.onclick = showWords();
-
-function showWords() {
-  document.getElementById("word").innerHTML = randomItem;
+function showNewWord() {
+  var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+  document.getElementById('word').innerHTML = randomItem;
 }
