@@ -148,6 +148,7 @@ h2, h2 a {
   background-color: rgba(0, 0, 0, 0.9);
   padding: 30px 0;
   text-align: center;
+  transition: 0.6s;
 }
 
 .info1 p {
@@ -164,10 +165,17 @@ h2, h2 a {
   display: inline-block;
 }
 
+.info1:hover
+{
+  background: #b05cff;
+}
+
+
 .info2 {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 30px 0;
   text-align: center;
+  transition: 0.6s;
 }
 
 .info2 p {
@@ -184,10 +192,17 @@ h2, h2 a {
   display: inline-block;
 }
 
+.info2:hover
+{
+  background: #ff6ebb;
+}
+
+
 .info3 {
   background-color: rgba(0, 0, 0, 0.9);
   padding: 30px 0;
   text-align: center;
+  transition: 0.6s;
 }
 
 .info3 td {
@@ -215,6 +230,12 @@ h2, h2 a {
   width: 10vmax;
   display: inline-block;
 }
+
+.info3:hover
+{
+  background: #ffb400;
+}
+
 
 .footer {
   background-color: rgba(0, 0, 0, 0.8);
