@@ -106,6 +106,12 @@ nav a:active {
   height: 30vmax;
   position: relative;
   text-align: center;
+  transition: all 0.6s ease;
+}
+
+.get-started:hover {
+  background: url(../images/wallpaper2.jpg);
+  background-size: auto auto;
 }
 
 .get-started .button {
@@ -148,7 +154,7 @@ h2, h2 a {
   background-color: rgba(0, 0, 0, 0.9);
   padding: 30px 0;
   text-align: center;
-  transition: 0.6s;
+  transition: 0.6s ease;
 }
 
 .info1 p {
@@ -175,7 +181,7 @@ h2, h2 a {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 30px 0;
   text-align: center;
-  transition: 0.6s;
+  transition: 0.6s ease;
 }
 
 .info2 p {
@@ -202,7 +208,7 @@ h2, h2 a {
   background-color: rgba(0, 0, 0, 0.9);
   padding: 30px 0;
   text-align: center;
-  transition: 0.6s;
+  transition: 0.6s ease;
 }
 
 .info3 td {
