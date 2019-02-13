@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
@@ -7,6 +8,7 @@ body {
   margin: 0;
   font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (1600 - 300)));
   color: White;
+  height: 100%;
 }
 
 header {
