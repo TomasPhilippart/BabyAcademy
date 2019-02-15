@@ -276,6 +276,14 @@ h2, h2 a {
   width: 25vmax;
   overflow: auto;
   display: inline-block;
+  transition: 0.6s ease;
+}
+
+.info4 img:hover
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #hidden {
@@ -303,10 +311,18 @@ h2, h2 a {
   width: 25vmax;
   overflow: auto;
   display: inline-block;
+  transition: 0.6s ease;
 }
 
 .info5:hover {
   background-color: #8707ff;
+}
+
+.info5 img:hover
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .info6 {
