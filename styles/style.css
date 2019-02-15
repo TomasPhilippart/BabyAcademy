@@ -146,6 +146,22 @@ h2, h2 a {
   padding-top: 10%;
   margin-top: 0;
 }
+.info0 {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 15px 0;
+  text-align: center;
+  transition: 0.6s ease;
+}
+
+.info0 p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info0 h2 {
+  color: white;
+  font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
 
 .info1 {
   background-color: rgba(0, 0, 0, 0.9);
@@ -259,7 +275,7 @@ h2, h2 a {
 }
 
 .info4:hover {
-  background-color: #aa7800;
+  background-color: #F9A602;
 }
 
 .info4 h2 {
@@ -350,4 +366,13 @@ h2, h2 a {
 
 .info6:hover {
   background-color: #ff1993;
+}
+
+#parent #popup {
+  display: none;
+  transition: 0.6s;
+}
+
+#parent:hover #popup {
+  display: block;
 }
