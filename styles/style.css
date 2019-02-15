@@ -272,7 +272,10 @@ h2, h2 a {
 }
 
 .info4 img {
-  width: 30vmax;
+  padding-top: 5px;
+  width: 25vmax;
+  overflow: auto;
+  display: inline-block;
 }
 
 #hidden {
